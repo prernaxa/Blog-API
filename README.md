@@ -192,10 +192,14 @@ All test suites passed:
 
 ![Test Coverage Report](public/test-report.png)
 
+---
+
 ## Submission Summary
 
 - Created 4+ custom API endpoints  
-- Integrated MongoDB Atlas for persistent data storage  
+- Integrated MongoDB Atlas for persistent data storage
+- Built unit, integration, and API tests using Jest
+- Verified code coverage and passed all test cases
 - (Optional) Built a frontend to interact with the APIs  
 - Provided clear documentation with example requests and responses  
 
