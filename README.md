@@ -161,6 +161,37 @@ curl http://localhost:4000/posts
 
 ---
 
+## Testing
+
+This project includes unit, integration, and API tests written using **Jest**.
+
+### How to Run Tests
+
+```bash
+npm test
+```
+
+### Test Coverage Summary
+
+All test suites passed:
+
+- `__tests__/unit/postModel.test.js`  
+- `__tests__/integration/dbIntegration.test.js`  
+- `__tests__/api/postApi.test.js`
+
+**Code coverage:**
+
+- **Statements**: 62.5%  
+- **Functions**: 57.14%  
+- **Lines**: 67.56%  
+- **Branches**: 37.5%  
+
+✅ `Post.js` model file: **100% test coverage**
+
+### Test Report Screenshot
+
+![Test Coverage Report](public/test-report.png)
+
 ## Submission Summary
 
 - Created 4+ custom API endpoints  
